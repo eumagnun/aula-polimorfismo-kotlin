@@ -4,4 +4,9 @@ class Aluno : Logavel {
         println("Média do aluno: "+9.8)
     }
 
+    override fun efeatuarCadastro() {
+        val sistema = Sistema();
+        sistema.cadastrarNoBanco()
+    }
+
 }

@@ -4,4 +4,9 @@ class Sistema(){
         println("Entrando no sistema...")
         logavel.efetuarLogin()
     }
+
+
+    fun cadastrarNoBanco(){
+        println("cadastrado no banco com sucesso!")
+    }
 }

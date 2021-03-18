@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
     val professor: Professor = Professor()
     professor.calcularSalario()
     professor.getDisciplina()
+    professor.efeatuarCadastro()
     sistema.abrirSistema(professor)
 
     println()
@@ -14,6 +15,7 @@ fun main(args: Array<String>) {
     println("================")
     val diretor: Diretor = Diretor()
     diretor.calcularSalario()
+    diretor.efeatuarCadastro()
     sistema.abrirSistema(diretor)
 
 
@@ -22,6 +24,7 @@ fun main(args: Array<String>) {
     println("==============")
     val aluno: Aluno = Aluno()
     aluno.caldularMedia()
+    aluno.efeatuarCadastro()
     sistema.abrirSistema(aluno)
 
 

@@ -7,4 +7,9 @@ class Diretor : Funcionario(),Logavel {
         println("Salario Padrão: "+(salarioPadrao-desconto+bonus) )
     }
 
+    override fun efeatuarCadastro() {
+        val sistema = Sistema();
+        sistema.cadastrarNoBanco()
+    }
+
 }

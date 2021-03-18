@@ -3,4 +3,6 @@ interface Logavel {                                                          // 
     fun efetuarLogin(){
         println("Login realizado com sucesso!")
     }
+
+    fun efeatuarCadastro()
 }

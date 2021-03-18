@@ -5,4 +5,9 @@ class Professor : Funcionario(),Logavel {
         println("Disciplina Android")
     }
 
+    override fun efeatuarCadastro() {
+        val sistema = Sistema();
+        sistema.cadastrarNoBanco()
+    }
+
 }
